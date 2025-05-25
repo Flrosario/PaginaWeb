@@ -2,10 +2,11 @@
 <html>
 <head>
     <title> Pagina de Flor Alvarez Costilla</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Flor de Rosario Alvarez Costilla</h1> <!-- Encabezado 1, solo 1 vez para posicionarte, Alt Z (ajusta pag) --> 
-    <ul><!-- crea listas desordenada, con puntos o para tipo menu --> 
+    <div><h1>Flor de Rosario Alvarez Costilla</h1></div> <!-- Encabezado 1, solo 1 vez para posicionarte, Alt Z (ajusta pag) --> 
+    <ul class="barra_nav"><!-- crea listas desordenada, con puntos o para tipo menu --> 
         <li>ACERCA DE MI</li>
         <li>CURSOS AVANZADOS</li>
         <li>CURSOS ACTUALES</li>
@@ -19,37 +20,37 @@
 
     <img src="Imagenes/flor_foto.jpg" alt="Mi foto personal"> <!-- colocar imagen -->
 
-    <h2>Acerca de mi</h2>
-    <p> 
+    <h2 class="titulo" > Acerca de mi</h2>
+    <p class="parrafo_normal" > 
         Estudiante de la Carrera de Ciencia de la Computacion en la universidad Catolica San Pablo, que busca adquirir nuevos conocimientos y experiencias permitiéndome un crecimiento profesional y personal.
     </p>
-    <h3> Información Personal </h3>
-    <p>
-        <strong>Nombre:</strong>
+    <h3 class="info" > Información Personal </h3>
+    <p class = "line_info">
+        <strong class = "text_info"> Nombre:</strong>
         Flor de Rosario Alvarez Costilla
     </p>
 
-    <p>
-        <strong>Edad:</strong>
+    <p class = "line_info">
+        <strong class = "text_info"> Edad:</strong>
         26 años
     </p>
 
-    <p>
-        <strong>Correo:</strong>
+    <p class = "line_info">
+        <strong class = "text_info"> Correo:</strong>
         flor.alvarez.costilla@ucsp.edu.pe
     </p>
 
-    <p>
-        <strong>Residencia:</strong>
+    <p class = "line_info">
+        <strong class = "text_info"> Residencia:</strong>
         Arequipa
     </p>
 
-    <h3> Habilidades y Cualidades</h3>
+    <h3 class="subtitulo"> Habilidades y Cualidades</h3>
 
     <img src="Imagenes/mew_habilidades.gif">
 
-    <h4>Habilidades</h4>
-    <ol><!-- crea listas ordenada --> 
+    <h4 class= "skills"> Habilidades</h4>
+    <ol class = "sections"><!-- crea listas ordenada --> 
         <li>Bailar</li> <!-- contenido listas con numero --> 
         <li>Practicar Voley, Basket y Natación</li>
         <li>Cocinar</li>
@@ -58,15 +59,15 @@
 
     <img src="Imagenes/glaceon_cualidades.gif">
 
-    <h4>Cualidades</h4>
-    <ol>
+    <h4 class= "skills"> Cualidades</h4>
+    <ol class = "sections">
         <li>Responsable</li>
         <li>Creativa</li>
         <li>Escucha Activa</li>
         <li>Resilencia</li>
     </ol>
 
-    <h3> Redes Sociales </h3>
+    <h3 class="subtitulo"> Redes Sociales </h3>
     <ul>
         <li>
             <a href="https://www.facebook.com/floor.ac.7" target="_blank"><img src="Imagenes/facebook.png" alt="Mi facebook personal"></a>
@@ -83,8 +84,8 @@
 
     <img src="Imagenes/cursos_2.gif">
 
-    <h2>Cursos Avanzados</h2>
-    <ul>
+    <h2 class="titulo"> Cursos Avanzados</h2>
+    <ul class = "sections_cursos">
         <li>Programación de Videojuegos</li>
         <li>Estructuras Discretas I</li>
         <li>Metodologia del Estudio</li>
@@ -93,16 +94,16 @@
         <li>Comunicación</li>
     </ul>
 
-    <h2>Cursos Actuales</h2>
-    <ul>
+    <h2 class="titulo"> Cursos Actuales</h2>
+    <ul class = "sections_cursos">
         <li>Introducción a Ciencia de la Computación</li>
         <li>Estructuras Discretas II</li>
         <li>Ciencia de la Computación I</li>
         <li>Oratoria</li>
     </ul>
 
-    <h3>Mis Docentes</h3>
-    <ul>
+    <h3 class="subtitulo"> Mis Docentes</h3>
+    <ul class = "sections_teachers">
         <li>
             <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank" >Ernesto Cuadros Vargas</a>
         </li><!-- anexa links, blank en otra pestaña y self misma pestaña --> 
@@ -119,7 +120,7 @@
 
     <img src="Imagenes/amigos.gif">
 
-    <h2>Mis Amigos</h2>
+    <h2 class="titulo"> Mis Amigos</h2>
 
 </body>
 </html>
