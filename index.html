@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="widht=device-width, initial-scale=1.0"> <!-- ajustar a otros tipos de dispositivos --> 
     <title> Pagina de Flor Alvarez Costilla</title>
-    <link rel="icon" href="Imagenes/logo_flor.png" type="Imagenes/png">
+    <link rel="icon" href="Imagenes/CARI.png" type="Imagenes/png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div><h1>Flor de Rosario Alvarez Costilla</h1></div> <!-- Encabezado 1, solo 1 vez para posicionarte, Alt Z (ajusta pag) --> 
-    <ul class="barra_nav"><!-- crea listas desordenada, con puntos o para tipo menu --> 
-        <li>ACERCA DE MI</li>
-        <li>CURSOS AVANZADOS</li>
-        <li>CURSOS ACTUALES</li>
-        <li>MIS AMIGOS</li>
-    </ul>
+    <nav class="barra_nav"><!-- crea listas desordenada, con puntos o para tipo menu --> 
+        <a href="#acercademi" class="navegar">ACERCA DE MI</a>
+        <a href="#cursosavanzados">CURSOS AVANZADOS</a>
+        <a href="#cursosactuales">CURSOS ACTUALES</a>
+        <a href="#misamigos">MIS AMIGOS</a>
+    </nav>
 
     <a href="https://ucsp.edu.pe/" target="_blank">
         <img src="Imagenes/ucsp.png" alt="Logo universidad">
@@ -23,7 +23,7 @@
 
     <img src="Imagenes/flor_foto.jpg" alt="Mi foto personal"> <!-- colocar imagen -->
 
-    <h2 class="titulo" > Acerca de mi</h2>
+    <h2 class="titulo" id="acercademi"> Acerca de mi</h2>
     <p class="parrafo_normal" > 
         Estudiante de la Carrera de Ciencia de la Computacion en la universidad Catolica San Pablo, que busca adquirir nuevos conocimientos y experiencias permitiéndome un crecimiento profesional y personal.
     </p>
@@ -87,7 +87,7 @@
 
     <img src="Imagenes/cursos_2.gif">
 
-    <h2 class="titulo"> Cursos Avanzados</h2>
+    <h2 class="titulo" id="cursosavanzados"> Cursos Avanzados</h2>
     <ul class = "sections_cursos">
         <li>Programación de Videojuegos</li>
         <li>Estructuras Discretas I</li>
@@ -97,7 +97,7 @@
         <li>Comunicación</li>
     </ul>
 
-    <h2 class="titulo"> Cursos Actuales</h2>
+    <h2 class="titulo" id="cursosactuales"> Cursos Actuales</h2>
     <ul class = "sections_cursos">
         <li>Introducción a Ciencia de la Computación</li>
         <li>Estructuras Discretas II</li>
@@ -123,7 +123,7 @@
 
     <img src="Imagenes/amigos.gif">
 
-    <h2 class="titulo"> Mis Amigos</h2>
+    <h2 class="titulo" id="misamigos"> Mis Amigos</h2>
 
 </body>
 </html>
