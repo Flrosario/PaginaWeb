@@ -6,124 +6,152 @@
     <title> Pagina de Flor Alvarez Costilla</title>
     <link rel="icon" href="Imagenes/CARI.png" type="Imagenes/png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <div><h1>Flor de Rosario Alvarez Costilla</h1></div> <!-- Encabezado 1, solo 1 vez para posicionarte, Alt Z (ajusta pag) --> 
+    <div class="caja_menu" id="icono_menu"></div>
     <nav class="barra_nav"><!-- crea listas desordenada, con puntos o para tipo menu --> 
-        <a href="#acercademi" class="navegar">ACERCA DE MI</a>
-        <a href="#cursosavanzados">CURSOS AVANZADOS</a>
-        <a href="#cursosactuales">CURSOS ACTUALES</a>
-        <a href="#misamigos">MIS AMIGOS</a>
+        <a href="#acercademi"><img src="Imagenes/estrella_icono.png" alt="estrella" class="estrella-icono">ACERCA DE MI</a>
+        <a href="#cursosavanzados"><img src="Imagenes/estrella_icono.png" alt="estrella" class="estrella-icono">CURSOS AVANZADOS</a>
+        <a href="#cursosactuales"><img src="Imagenes/estrella_icono.png" alt="estrella" class="estrella-icono">CURSOS ACTUALES</a>
+        <a href="#misamigos"><img src="Imagenes/estrella_icono.png" alt="estrella" class="estrella-icono">MIS AMIGOS</a>
     </nav>
 
-    <a href="https://ucsp.edu.pe/" target="_blank">
-        <img src="Imagenes/ucsp.png" alt="Logo universidad">
+    <a href="https://ucsp.edu.pe/" target="_blank" class="logo-link">
+        <img src="Imagenes/ucsp.png" alt="Logo universidad" class="logo">
     </a>
 
+<section class="acercademi" id="acercademi"></section>
+    <div class="perfil_box">
+    <div class="mi_nombre"><h1>Flor de Rosario Alvarez Costilla</h1></div>
 
-    <img src="Imagenes/flor_foto.jpg" alt="Mi foto personal"> <!-- colocar imagen -->
+    <div class = "titulo">
+        <div class="titulo_texto">
+                <h2> Acerca de mi</h2>
+                <p> 
+                Estudiante de la Carrera de Ciencia de la Computacion en la universidad Catolica San Pablo, que busca adquirir nuevos conocimientos y experiencias permitiéndome un crecimiento profesional y personal.
+                </p>
+        </div>
+        <img src="Imagenes/flor_foto.jpg" alt="Mi foto personal">
+    </div>
 
-    <h2 class="titulo" id="acercademi"> Acerca de mi</h2>
-    <p class="parrafo_normal" > 
-        Estudiante de la Carrera de Ciencia de la Computacion en la universidad Catolica San Pablo, que busca adquirir nuevos conocimientos y experiencias permitiéndome un crecimiento profesional y personal.
-    </p>
-    <h3 class="info" > Información Personal </h3>
-    <p class = "line_info">
-        <strong class = "text_info"> Nombre:</strong>
-        Flor de Rosario Alvarez Costilla
-    </p>
+        <div class = "titulo_content">
+            <h3> Información Personal </h3>
+            <p>
+            <strong class = "text_info"> Nombre:</strong>
+            Flor de Rosario Alvarez Costilla
+            </p>
 
-    <p class = "line_info">
-        <strong class = "text_info"> Edad:</strong>
-        26 años
-    </p>
+            <p>
+            <strong class = "text_info"> Edad:</strong>
+            26 años
+            </p>
 
-    <p class = "line_info">
-        <strong class = "text_info"> Correo:</strong>
-        flor.alvarez.costilla@ucsp.edu.pe
-    </p>
+            <p>
+            <strong class = "text_info"> Correo:</strong>
+            flor.alvarez.costilla@ucsp.edu.pe
+            </p>
 
-    <p class = "line_info">
-        <strong class = "text_info"> Residencia:</strong>
-        Arequipa
-    </p>
+            <p>
+            <strong class = "text_info"> Residencia:</strong>
+            Arequipa
+            </p>
+        </div>
+        </div> 
+    
+    <div class="redes_content">
+    <h3 class="subtitulo_redes"> Redes Sociales </h3>
+        <a href="https://www.instagram.com/fl_rosario/" target="_blank" class="icono instagram"><i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/floor.ac.7" target="_blank"class="icono facebook"><i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/falvarezc/" target="_blank"class="icono linkedin"><i class="fab fa-linkedin-in"></i>
+        </a>
+    </div>
 
-    <h3 class="subtitulo"> Habilidades y Cualidades</h3>
+    <div class = "subtitulo_content">
+        <h3 class="subtitulo"> Habilidades y Cualidades</h3>
+        <div class="contenido_cuadro">
+        <div class="sub_columna">
+        <img src="Imagenes/mew_habilidades.gif">
 
-    <img src="Imagenes/mew_habilidades.gif">
+        <h4> Habilidades</h4>
+        <ol>
+            <li>Bailar</li>
+            <li>Practicar Voley, Basket y Natación</li>
+            <li>Cocinar</li>
+            <li>Escribir Poemas y Manualidades</li>
+        </ol>
+        </div>
 
-    <h4 class= "skills"> Habilidades</h4>
-    <ol class = "sections"><!-- crea listas ordenada --> 
-        <li>Bailar</li> <!-- contenido listas con numero --> 
-        <li>Practicar Voley, Basket y Natación</li>
-        <li>Cocinar</li>
-        <li>Escribir Poemas y Manualidades</li>
-    </ol>
+        <div class="sub_columna">
+        <img src="Imagenes/cursos_2.gif">
 
-    <img src="Imagenes/glaceon_cualidades.gif">
+        <h4> Cualidades</h4>
+        <ol>
+            <li>Responsable</li>
+            <li>Creativa</li>
+            <li>Escucha Activa</li>
+            <li>Resilencia</li>
+        </ol>
+        </div>
+        </div>
+    </div>
+        
+    </section>
 
-    <h4 class= "skills"> Cualidades</h4>
-    <ol class = "sections">
-        <li>Responsable</li>
-        <li>Creativa</li>
-        <li>Escucha Activa</li>
-        <li>Resilencia</li>
-    </ol>
+    <section class="cursosavanzados" id="cursosavanzados">
+    <div class="curs_advn">
+        <img src="Imagenes/glaceon_cualidades.gif">
+        <h2> Cursos Avanzados</h2>
+        <ul class = "sections_cursos">
+            <li>Programación de Videojuegos</li>
+            <li>Estructuras Discretas I</li>
+            <li>Metodologia del Estudio</li>
+            <li>Matematica I</li>
+            <li>Introducción a la Vida Universitaria</li>
+            <li>Comunicación</li>
+        </ul>
+    </div>
+    </section>
 
-    <h3 class="subtitulo"> Redes Sociales </h3>
-    <ul>
-        <li>
-            <a href="https://www.facebook.com/floor.ac.7" target="_blank"><img src="Imagenes/facebook.png" alt="Mi facebook personal"></a>
-        </li>
+    <section class="cursosactuales" id="cursosactuales">
+    <div class="curs_act">
+        <h2> Cursos Actuales</h2>
+        <ul>
+            <li>Introducción a Ciencia de la Computación</li>
+            <li>Estructuras Discretas II</li>
+            <li>Ciencia de la Computación I</li>
+            <li>Oratoria</li>
+        </ul>
+    </div>
 
-        <li>
-            <a href="https://www.instagram.com/fl_rosario/" target="_blank"><img src="Imagenes/instagram.png" alt="Mi instagram personal"></a>
-        </li>
+    <div class="curs_doc">
+        <h3> Mis Docentes</h3>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank" >Ernesto Cuadros Vargas</a>
+            </li><!-- anexa links, blank en otra pestaña y self misma pestaña --> 
+            <li>
+                <a href="https://www.linkedin.com/in/luis-fernando-d%C3%ADaz-basurco-48098333/" target="_blank" >Luis Diaz Basurco</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/kelly-vizconde-la-motta-3a57a4143/" target="_blank" >Kelly Vizconde La Motta</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/claudia-calisaya-carpio-5821a0173/" target="_blank" >Claudia Calisaya Carpio</a>
+            </li>
+        </ul>
+    </div>
+    </section>
 
-        <li>
-            <a href="https://www.linkedin.com/in/falvarezc/" target="_blank"><img src="Imagenes/linkind.png" alt="Mi linkedin personal"></a>
-        </li>
-    </ul>
-
-    <img src="Imagenes/cursos_2.gif">
-
-    <h2 class="titulo" id="cursosavanzados"> Cursos Avanzados</h2>
-    <ul class = "sections_cursos">
-        <li>Programación de Videojuegos</li>
-        <li>Estructuras Discretas I</li>
-        <li>Metodologia del Estudio</li>
-        <li>Matematica I</li>
-        <li>Introducción a la Vida Universitaria</li>
-        <li>Comunicación</li>
-    </ul>
-
-    <h2 class="titulo" id="cursosactuales"> Cursos Actuales</h2>
-    <ul class = "sections_cursos">
-        <li>Introducción a Ciencia de la Computación</li>
-        <li>Estructuras Discretas II</li>
-        <li>Ciencia de la Computación I</li>
-        <li>Oratoria</li>
-    </ul>
-
-    <h3 class="subtitulo"> Mis Docentes</h3>
-    <ul class = "sections_teachers">
-        <li>
-            <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank" >Ernesto Cuadros Vargas</a>
-        </li><!-- anexa links, blank en otra pestaña y self misma pestaña --> 
-        <li>
-            <a href="https://www.linkedin.com/in/luis-fernando-d%C3%ADaz-basurco-48098333/" target="_blank" >Luis Diaz Basurco</a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/in/kelly-vizconde-la-motta-3a57a4143/" target="_blank" >Kelly Vizconde La Motta</a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/in/claudia-calisaya-carpio-5821a0173/" target="_blank" >Claudia Calisaya Carpio</a>
-        </li>
-    </ul>
-
+<section class="misamigos" id="misamigos">
+<div class = "friends">
     <img src="Imagenes/amigos.gif">
 
-    <h2 class="titulo" id="misamigos"> Mis Amigos</h2>
+    <h2> Mis Amigos</h2>
+</section>
+</div>
 
 </body>
 </html>
